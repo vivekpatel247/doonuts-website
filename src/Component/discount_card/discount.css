@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@font-face {
+    font-family: SF Pro Display;
+    src: url(../Images/SF-Pro.ttf)
+}
+
+.discount_card_sec {
+    background-image: url(../Images/discount_card_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 88px 0px;
+    margin: 100px 0px;
+}
+
+.discount_section_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px;
+}
+
+.discount_sec_title {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.discount_sec_title--left-line {
+    &::before {
+        content: "";
+        background-color: #FFFFFF;
+        height: 2px;
+        width: 8%;
+        margin-right: 10px;
+    }
+}
+
+.discount_sec_dataset {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.discount_section_title {
+    font-family: "Oswald", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.discount_sec_dataset p {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.discount_searchbox-wrap {
+    display: flex;
+    margin-top: 10px;
+    width: 70%;
+
+    input {
+        flex: 1 1;
+        padding: 22px 15px;
+        font-family: "Rubik", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.96px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        -webkit-border-top-left-radius: 15px;
+        -webkit-border-bottom-left-radius: 15px;
+        -moz-border-radius-topleft: 15px;
+        -moz-border-radius-bottomleft: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        box-shadow: none;
+        border: 1px solid #1A022C24;
+        border-right: none;
+        box-shadow: 0px 8px 36px 0px #6D8DAD2E;
+        background-color: #FFFFFF;
+        width: 80%;
+    }
+
+    button {
+        padding-right: 5px;
+        background-color: #ffffff;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        box-shadow: 0px 8px 36px 0px #6D8DAD2E;
+        border: 1px solid #1A022C24;
+        border-left: none;
+        cursor: pointer;
+
+        span {
+            margin-left: 0px;
+            padding: 15px 35px;
+            font-family: Satoshi;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24.3px;
+            letter-spacing: 0.02em;
+            text-align: center;
+            font-weight: 500;
+            color: #ffffff;
+            background-color: #FF6338;
+            border-radius: 10px;
+            box-shadow: 0px 8px 36px 0px #FFFFFF;
+
+            &:hover {
+                background-color: #FF6338;
+                box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.19);
+            }
+        }
+    }
+}
+
+@media(min-width:320px) and (max-width:767px){
+
+    .discount_card_sec {
+        padding: 80px 0px;
+        margin: 50px 0px;
+    }
+
+    .discount_section_data {
+        padding-left: 50px;
+    }
+
+    .discount_sec_title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .discount_section_title {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .discount_sec_dataset p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .discount_searchbox-wrap {
+        display: flex;
+        margin-top: 10px;
+        width: 70%;
+    
+        input {
+            flex: 1 1;
+            padding: 15px 10px;
+            font-size: 12px;
+            line-height: 18px;
+        }
+    
+        button {
+            padding-right: 5px;
+            background-color: #FFFFFF;
+            -webkit-border-top-right-radius: 15px;
+            -webkit-border-bottom-right-radius: 15px;
+            -moz-border-radius-topright: 15px;
+            -moz-border-radius-bottomright: 15px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            box-shadow: 0px 8px 36px 0px #6D8DAD2E;
+            border: 1px solid #1A022C24;
+            border-left: none;
+            cursor: pointer;
+    
+            span {
+                padding: 8px 6px;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 20.3px;
+    
+                &:hover {
+                    background-color: #FF6338;
+                    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.19);
+                }
+            }
+        }
+    }
+}

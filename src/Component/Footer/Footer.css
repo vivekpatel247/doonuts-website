@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.footer_background {
+    background-image: url("../Images/footer_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 105px;
+}
+
+.footer_link {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 34px;
+}
+
+.footer_nav-link {
+    margin: 0px;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.footer_logo {
+    margin-bottom: 34px;
+}
+
+.footer_app_logo{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 105px;
+}
+
+.facebook-icon {
+    color: #ffffff;
+    background: #FFFFFF33;
+    padding: 20px 15px;
+    border-radius: 50%;
+}
+
+.twitter-icon{
+    color: #ffffff;
+    background: #FFFFFF33;
+    padding: 20px 10px;
+    border-radius: 50%;
+}
+
+.instagram-icon{
+    color: #ffffff;
+    background: #FFFFFF33;
+    padding: 20px 10px;
+    border-radius: 50%;
+}
+
+.copyright_footer{
+    background: #07085B;
+}
+
+.copyright_footer_text{
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 12px 0px;
+}
+
+.heart_logo{
+    color: red;
+}
+
+@media(min-width:320px) and (max-width:767px){
+
+    .footer_background{
+        padding: 40px 20px 0px 20px;
+    }
+
+    .footer_link {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 0px;
+    }
+
+    .copyright_footer{
+        padding: 0px 20px;
+    }
+}

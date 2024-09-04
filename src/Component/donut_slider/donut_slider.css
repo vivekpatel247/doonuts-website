@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@font-face {
+    font-family: SF Pro Display;
+    src: url(../Images/SF-Pro.ttf)
+}
+
+.donut_slider_section{
+    padding: 100px 0px;
+}
+
+.donutslider_title {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FF507B;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.donutslider_title--left-line {
+    &::before {
+        content: "";
+        background-color: #FF507B;
+        height: 2px;
+        width: 5%;
+        margin-right: 10px;
+    }
+}
+
+.donutslider_section_title {
+    font-family: "Oswald", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: left;
+    color: #FF6338;
+    margin: 0px;
+    padding-bottom: 44px;
+}
+
+.donutslider_section_title span {
+    font-family: "Oswald", sans-serif;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: left;
+    color: #1A022C;
+}

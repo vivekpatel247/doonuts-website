@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@font-face {
+    font-family: SF Pro Display;
+    src: url(../Images/SF-Pro.ttf)
+}
+
+.happiness_section{
+    background-image: url("../Images/happiness-bg-img.png");
+    padding-top: 238px;
+    padding-bottom: 238px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.happiness_data{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.happiness_title {
+    font-family: "Oswald", sans-serif;
+    font-size: 84px;
+    font-weight: 600;
+    line-height: 95px;
+    color: #1A022C;
+    text-align: left;
+    max-width: 41%;
+    margin-bottom: 26px;
+}
+
+.happiness_title_span {
+    font-family: "Oswald", sans-serif;
+    font-size: 84px;
+    font-weight: 600;
+    line-height: 95px;
+    color: #FF6338;
+    text-align: left;
+}
+
+.happiness_info {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    max-width: 45%;
+    margin-bottom: 28px;
+}
+
+.happiness_btn {
+    padding: 18px 45px 18px 45px;
+    border-radius: 16px;
+    border: none;
+    background: #FF6338;
+    box-shadow: 0px 10px 18px 0px #00000024;
+}
+
+.happiness_btn_text {
+    font-family: Satoshi;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.3px;
+    letter-spacing: 0.02em;
+    margin: 0px; 
+    color: #ffffff;   
+}
+
+@media(min-width:320px) and (max-width:767px){
+
+    .happiness_section {
+        padding: 100px 12px;
+    }
+
+    .happiness_title {
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 60px;
+        max-width: 94%;
+        margin-bottom: 12px;
+    }
+    
+    .happiness_title_span {
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 60px;
+    }
+    
+    .happiness_info {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        max-width: 90%;
+        margin-bottom: 12px;
+    }
+
+    .happiness_btn {
+        padding: 10px 30px 10px 30px;
+    }
+    
+    .happiness_btn_text {
+        font-size: 14px;
+    }
+}
